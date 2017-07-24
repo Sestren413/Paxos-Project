@@ -1,0 +1,9 @@
+Project from UT Distributed Computing class Fall '15
+
+Uses the paxos protocol in a chatroom mockup with an arbitrary number of clients and servers.
+
+The code structure is somewhat ad-hoc because I was figuring out the basics of network programming and multiprocessing with Python on my own at the time. Additionally, the project hooked into an autograder that ran test cases. I have pulled out only the sections that I wrote: The code for the clients, servers, and the main script which spawns them and sends them commands.
+
+The Master.py script takes inputs like the ones in the tests folder. Master-Manual.py was created because I was having difficulty running those at one point and created some hardcoded testcases to get around the problem.
+
+This code is old and likely has issues. It was uploaded as-is.
